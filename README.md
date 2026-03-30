@@ -1,4 +1,4 @@
-# Olá, eu sou o Diego Bibiano! 👋
+# Olá, eu sou o Diego Bibiano!
 
 ### Futuro Desenvolvedor Full-Stack | Engenheiro Civil
 
