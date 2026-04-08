@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Bibiano - Futuro Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Diego Bibiano</h1>
+            <p class="subtitulo">Futuro Desenvolvedor Full-Stack</p>
+        </header>
+
+        <!-- Sobre -->
+        <section class="sobre">
+            <h2>Sobre mim</h2>
+            <p>Estou aprendendo Python e agora estou entrando no mundo do desenvolvimento web.</p>
+            <p>Meu objetivo é me tornar um programador júnior full-stack ainda em 2026.</p>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades">
+            <h2>O que eu já sei</h2>
+            <ul>
+                <li>Lógica de programação em Python</li>
+                <li>Condicionais (if/else)</li>
+                <li>Loops (while)</li>
+                <li>Validação de input com try/except</li>
+                <li>Listas e Dicionários</li>
+                <li>HTML e CSS básico</li>
+            </ul>
+        </section>
+
+        <!-- Foto -->
+        <section class="foto">
+            <h2>Minha foto</h2>
+            <img src="minha-foto.jpg" alt="Foto de Diego Bibiano">
+        </section>
+
+        <!-- Contatos -->
+        <section class="contatos">
+            <h2>Minhas redes e contatos</h2>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/diegobibiano/" target="_blank" class="link">
+                    Meu LinkedIn
+                </a>
+                <a href="https://github.com/diegobibiano" target="_blank" class="link">
+                    Meu GitHub
+                </a>
+            </div>
+        </section>
+         <!-- Projetos -->
+        <section class="projetos">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                
+                <!-- Projeto 1 -->
+                <a href="#" target="_blank" class="projeto-card">
+                    <h3>Contador Mágico</h3>
+                    <p>Programa em Python com validação de input, loops e tratamento de erros.</p>
+                    <span class="tag">Python</span>
+                </a>
+
+                <!-- Projeto 2 -->
+                <a href="#" target="_blank" class="projeto-card">
+                    <h3>Meu Primeiro Portfólio</h3>
+                    <p>Site pessoal desenvolvido com HTML e CSS, incluindo Flexbox e efeitos hover.</p>
+                    <span class="tag">HTML + CSS</span>
+                </a>
+
+                <!-- Projeto 3 -->
+                <a href="#" target="_blank" class="projeto-card">
+                    <h3>Gerenciador de Projetos Elétricos</h3>
+                    <p>Sistema simples em Python usando listas e dicionários para organizar projetos.</p>
+                    <span class="tag">Python</span>
+                </a>
+
+            </div>
+        </section>
+        <footer>
+            <p>Feito com dedicação em Abril de 2026</p>
+        </footer>
+    </div>
+        <!-- Botão Modo Escuro -->
+        <div style="text-align: center; margin-top: 20px;">
+            <button id="btn-tema">🌙 Modo Escuro</button>
+        </div>
+
+        <script>
+            const botao = document.getElementById('btn-tema');
+            const body = document.body;
+
+            botao.addEventListener('click', () => {
+                body.classList.toggle('dark-mode');
+                
+                if (body.classList.contains('dark-mode')) {
+                    botao.textContent = '☀️ Modo Claro';
+                } else {
+                    botao.textContent = '🌙 Modo Escuro';
+                }
+            });
+        </script>
+
+</body>
+</html>
